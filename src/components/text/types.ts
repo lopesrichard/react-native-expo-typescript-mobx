@@ -1,0 +1,34 @@
+import { TextStyle } from 'react-native';
+
+export type CustomTextStyle = {
+  position?: TextStyle['position'];
+  t?: TextStyle['top'];
+  top?: TextStyle['top'];
+  l?: TextStyle['left'];
+  left?: TextStyle['left'];
+  r?: TextStyle['right'];
+  right?: TextStyle['right'];
+  b?: TextStyle['bottom'];
+  bottom?: TextStyle['bottom'];
+  self?: TextStyle['alignSelf'];
+  align?: TextStyle['textAlign'];
+  m?: TextStyle['margin'];
+  margin?: TextStyle['margin'];
+  ml?: TextStyle['margin'];
+  mx?: TextStyle['margin'];
+  mr?: TextStyle['margin'];
+  mt?: TextStyle['margin'];
+  my?: TextStyle['margin'];
+  mb?: TextStyle['margin'];
+  p?: TextStyle['padding'];
+  padding?: TextStyle['padding'];
+  pl?: TextStyle['padding'];
+  px?: TextStyle['padding'];
+  pr?: TextStyle['padding'];
+  pt?: TextStyle['padding'];
+  py?: TextStyle['padding'];
+  pb?: TextStyle['padding'];
+  size?: TextStyle['fontSize'];
+  weight?: TextStyle['fontWeight'];
+  color?: TextStyle['color'];
+};
