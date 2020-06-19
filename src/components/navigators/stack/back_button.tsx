@@ -3,7 +3,7 @@ import React, { FunctionComponent } from 'react';
 import { StackNavigationProp } from '@react-navigation/stack';
 import { RootNavigatorScreenList } from '~/navigators';
 
-import * as View from '~/components/view';
+import * as View from '~/components/grid';
 import { Icon } from '~/components/icon';
 
 export type BackButtonProps = {

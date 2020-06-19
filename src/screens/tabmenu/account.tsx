@@ -3,7 +3,7 @@ import React from 'react';
 import { NavigationProp } from '@react-navigation/native';
 import { RootNavigatorScreenList } from '~/navigators';
 
-import * as View from '~/components/view';
+import * as View from '~/components/grid';
 import * as Text from '~/components/text';
 
 import { userStore } from '~/stores';

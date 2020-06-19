@@ -4,7 +4,7 @@ import { TextInput, Animated as RNAnimated, TextInputProps } from 'react-native'
 
 import _ from 'lodash';
 
-import * as View from '~/components/view';
+import * as View from '~/components/grid';
 import * as Text from '~/components/text';
 import { Icon } from '~/components/icon';
 import { CustomAnimatedTextInputStyle, CustomAnimatedTextInputProps } from '~/components/input';
@@ -74,10 +74,8 @@ export const Animated = (props: CustomAnimatedTextInputStyle & TextInputProps & 
     outputRange: [colors.parse('primary'), colors.parse('secondary')],
   });
 
-  const default_container = { h: 50, justify: 'center', w: '80%', bw: 1, mt: 5, bc: color };
-
   return (
-    <View.Animated {...default_container} {...props.container}>
+    <View.Animated h={50} w="80%" bw={1} mt={5} justify="center" bc={color} {...props.container}>
       <View.Row align="center">
         {props.icon && (
           <View.Animated size={50} p={5} align="center" justify="center" color={color}>

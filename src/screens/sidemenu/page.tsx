@@ -3,7 +3,7 @@ import React, { FunctionComponent } from 'react';
 import { DrawerNavigationProp } from '@react-navigation/drawer';
 import { RootNavigatorScreenList } from '~/navigators';
 
-import * as View from '~/components/view';
+import * as View from '~/components/grid';
 import * as Text from '~/components/text';
 import { Icon } from '~/components/icon';
 

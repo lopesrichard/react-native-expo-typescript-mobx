@@ -6,7 +6,7 @@ import Svg, { Path } from 'react-native-svg';
 import { Tab } from '~/navigators/tabs';
 
 import { Icon } from '~/components/icon';
-import * as View from '~/components/view';
+import * as View from '~/components/grid';
 
 import { colors } from '~/util/colors';
 import { themes } from '~/util/themes';

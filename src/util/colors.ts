@@ -15,6 +15,7 @@ export type Colors = {
   black: string;
   white: string;
   gray: string;
+  shadow: string;
 };
 
 export type ColorList = keyof Omit<Colors, 'parse'>;
@@ -28,4 +29,5 @@ export const colors = {
   black: '#111111',
   white: '#FFFFFF',
   gray: '#DADADA',
+  shadow: '#999999',
 };

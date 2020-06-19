@@ -5,7 +5,7 @@ import { RootNavigatorScreenList } from '~/navigators';
 
 import { Page } from '~/screens/sidemenu/page';
 
-import * as View from '~/components/view';
+import * as View from '~/components/grid';
 import * as Text from '~/components/text';
 import * as Button from '~/components/button';
 

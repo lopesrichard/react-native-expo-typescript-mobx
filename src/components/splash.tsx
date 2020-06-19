@@ -1,7 +1,7 @@
 import React from 'react';
 
 import LottieView from 'lottie-react-native';
-import * as View from '~/components/view';
+import * as View from '~/components/grid';
 
 import { animations } from '~/assets/animations';
 

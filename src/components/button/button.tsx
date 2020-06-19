@@ -2,7 +2,7 @@ import React from 'react';
 
 import _ from 'lodash';
 
-import * as View from '~/components/view';
+import * as View from '~/components/grid';
 import * as Text from '~/components/text';
 import Spinner from '~/components/spinner';
 
