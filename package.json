@@ -21,7 +21,7 @@
     "expo-facebook": "~8.1.0",
     "expo-image-picker": "~8.1.0",
     "expo-sharing": "~8.1.0",
-    "lodash": "^4.17.15",
+    "lodash": "^4.17.21",
     "logkitty": "^0.7.1",
     "lottie-react-native": "~2.6.1",
     "mobx": "^5.15.4",
